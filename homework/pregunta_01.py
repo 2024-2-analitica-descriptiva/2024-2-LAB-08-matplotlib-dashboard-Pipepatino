@@ -140,4 +140,5 @@ def pregunta_01():
     create_visual_for_weight_distribution(df)
 
 
-pregunta_01()
+if __name__ == "__main__":
+    pregunta_01()
